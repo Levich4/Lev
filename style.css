@@ -77,11 +77,11 @@ header h1{
 }
 .video video{
     clip-path: inset(15% 15% 15% 15%);
-    width: 155%;
+    width: 105%;
     height:auto;
     display:block;
-    margin-top: -70px;
-    margin-left: -170px;
+    margin-left:-220px;
+    margin-top:-100px;
 }
 .video figcaption{
     margin-top:-60px;
