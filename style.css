@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid yellow;
+    padding: 10px;
+}
+header h1{
+    font-weight: bold;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.navbar a{
+    color: lightgray;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: darkgray;
+    color: white;
+    border-radius: 10px;
+}
+.about p{
+    position: relative;
+    bottom: 10px;
+}
+.about img{
+    width: 25%;
+    height: auto;
+}
+.skills{
+    background-color: lightgray;
+    padding: 10px;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+.skills ul{
+    list-style-type: none;
+    padding: 0;
+}
+.tnl{
+    margin-top: -10px;
+}
+.about img{
+    clip-path: inset(10% 20% 13% 20%);
+    margin-bottom: -15px;
+}
+.homeland img{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 800px;
+}
+.homeland figure {
+    margin:0;
+}
+.homeland figcaption{
+    padding-top:5px;
+    margin-left:10px;
+}
+.video video{
+    clip-path: inset(15% 15% 15% 15%);
+    width: 155%;
+    height:auto;
+    display:block;
+    margin-top: -70px;
+    margin-left: -160px;
+}
+.video figcaption{
+    margin-top:-60px;
+    margin-left:-30px;
+}
+footer{
+    text-align:center;
+    display:block;
+    color:white;
+    background-color:black;
+    padding:5px;
+}
+.filler{
+    background-color:lightgray;
+    padding:5px;
+    margin-top:20px;
+    width:102%;
+    margin-left:-2%;
+}
