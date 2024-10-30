@@ -75,12 +75,11 @@ header h1{
     padding-top:5px;
     margin-left:10px;
 }
-.video video{
+.video{
     width: 100%;
     height:auto;
     display:block;
     max-width:800px;
-    padding:10px;
 }
 .video figcaption{
     margin-top:-60px;
